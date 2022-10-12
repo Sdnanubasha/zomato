@@ -1,0 +1,177 @@
+body{
+    margin:auto;
+    background-color:white;
+}
+a{
+    text-decoration: none;
+}
+/*Header Css*/
+header{
+    height:60px;
+    /* border:2px  solid red; */
+    background-color:#ef4f5f;
+    color:white;
+    
+}
+
+button{
+    height:38px;
+    width:100px;
+    background-color:white;
+    color:black;
+}
+button:hover{
+    transform: scale(1.04);
+}
+
+#login{
+    cursor: pointer;
+    background-color:white;
+    border: 0;
+    border-radius: 35px;
+}
+
+#register{
+    margin-left: 10px;
+    cursor: pointer;
+    background-color:white;
+    border: 0;
+    border-radius: 35px;
+}
+
+#icon{
+    float:left;
+    display:flex;
+}
+
+#icon > h1{
+    margin:5%;
+    margin-left: 10%;
+}
+#icon > button{
+    margin-left: 10%;
+    margin-top: 5%;
+    border: 0;
+    border-radius: 35px;
+    padding: 10px;
+    color:black;
+}
+#social{
+    float:right;
+    margin-top: 12px;
+    margin-right: 3%;
+}
+/*Container Css*/
+.container{
+    height:1000px;
+    width:90%;
+    /* border:2px solid red; */
+    margin-left: 5%;
+    margin-top:5%;
+    display:inline-block;
+}
+
+#filter{
+    height:580px;
+    width: 20%;
+    border:0px solid gray;
+    float:left;
+    background-color: bisque;
+}
+#filter > h1{
+    text-align: center;
+}
+#filter >h3{
+    text-align: center;
+}
+#filter > input{
+ margin-left: 10%;
+ margin-bottom: 10px;
+}
+
+
+#content{
+    height:1000px;
+    width: 75%;
+    margin-left: 4%;
+    float:left;
+}
+#items{
+    width: 100%;
+    height: 30%;
+    margin-bottom: 3%;
+    box-shadow: 2px 2px 15px grey;
+    cursor: pointer;
+}
+#items img:hover{
+    transform: scale(1.06);
+}
+#items img{
+    float: left;
+    width: 30%;
+    height: 80%;
+    margin: 3%;
+    border-radius: 20px;
+}
+.aboutitem{
+    width: 60%;
+    float: right;
+    margin: 0%;
+}
+.aboutitem > button{
+
+    padding:5px;
+    border: 0;
+    border-radius: 10px;
+    margin-bottom: 1%;
+    transform: none;
+
+}
+.aboutitem >h3{
+    margin-top: 5%;
+    margin-bottom: 20px;
+    color: mediumblue;
+    font-size: x-large;
+}
+.aboutitem > .bf{
+    background-color: #1dce7b;
+}
+.aboutitem > .ni{
+    background-color: rgb(225, 96, 26);
+}
+.aboutitem > .ff{
+    background-color: rgb(192, 30, 206);
+}
+.aboutitem > .l{
+    background-color: rgb(208, 29, 29);
+}
+
+/*Footer Css*/
+Footer{
+    /* height:100px; */
+    margin-top:3%;
+    background-color:#ef4f5f;
+    color:white;
+    text-align: center;
+}
+
+#footText{
+   
+    font-size: 28px;
+}
+
+.footDiv{
+    height:70px;
+    width:33%;
+    display: inline-block;
+    border-right: 1px solid white;
+}
+
+.noBorder{
+    border:none
+}
+
+.socialIcon{
+    height:50px;
+    width:50px
+}
